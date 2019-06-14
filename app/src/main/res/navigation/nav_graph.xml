@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/employeeListFragment">
+
+    <fragment
+        android:id="@+id/employeeListFragment"
+        android:name="com.hp.hp.retroallmethods.EmployeeListFragment"
+        android:label="fragment_employee_list"
+        tools:layout="@layout/fragment_employee_list" >
+        <action
+            android:id="@+id/next_action"
+            app:destination="@id/employeeDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/actionCreatenew"
+            app:destination="@id/createUSerFrag"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/employeeDetailsFragment"
+        android:name="com.hp.hp.retroallmethods.EmployeeDetailsFragment"
+        android:label="fragment_employee_details"
+        tools:layout="@layout/fragment_employee_details" >
+        <action
+            android:id="@+id/next_action"
+            app:destination="@id/createUSerFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/createUSerFrag"
+        android:name="com.hp.hp.retroallmethods.CreateUSerFrag"
+        android:label="fragment_create_u"
+        tools:layout="@layout/fragment_create_u" >
+        <action
+            android:id="@+id/actionbacktohome"
+            app:destination="@id/employeeListFragment" />
+    </fragment>
+</navigation>
