@@ -18,8 +18,11 @@ import com.google.android.material.textfield.TextInputLayout;
 import com.google.gson.Gson;
 import com.hp.hp.retroallmethods.Api_client.Api_client;
 import com.hp.hp.retroallmethods.Api_interface.API_interface;
+import com.hp.hp.retroallmethods.AppPreference.AppPreferences;
 import com.hp.hp.retroallmethods.Model.CreateEmployeeRequest;
 import com.hp.hp.retroallmethods.Model.CreateEmployeeResponse;
+import com.hp.hp.retroallmethods.Model.UpdateRequest;
+import com.hp.hp.retroallmethods.Model.UpdateResponse;
 
 import okhttp3.MediaType;
 import okhttp3.RequestBody;
@@ -34,10 +37,11 @@ import retrofit2.Response;
 public class CreateUSerFrag extends Fragment {
 
     TextInputLayout name,age,salary;
-    ExtendedFloatingActionButton create;
+    TextView heading;
+    ExtendedFloatingActionButton create,update;
     String Json;
     RequestBody requestBody=null;
-
+    AppPreferences    appPreferences;
     public CreateUSerFrag() {
         // Required empty public constructor
     }
@@ -58,7 +62,22 @@ public class CreateUSerFrag extends Fragment {
         age=view.findViewById(R.id.age);
         salary=view.findViewById(R.id.salary);
         create=view.findViewById(R.id.create);
+        update=view.findViewById(R.id.updateuser);
+        heading=view.findViewById(R.id.head);
         final API_interface api = Api_client.getClient().create(API_interface.class);
+
+        appPreferences = AppPreferences.getInstance(getContext(), getResources().getString(R.string.app_name));
+
+    if(appPreferences.getInt("update")!=1)
+    {
+        update.setVisibility(View.INVISIBLE);
+    }
+    else if(appPreferences.getInt("update")==1)
+    {
+        heading.setText("Update Details ");
+        create.setVisibility(View.INVISIBLE);
+    }
+
 
         create.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -87,6 +106,7 @@ public class CreateUSerFrag extends Fragment {
 
                         Toast.makeText(getContext(), "Employee record created", Toast.LENGTH_SHORT).show();
 
+                        //pass click view in  findNavController
                         Navigation.findNavController(mView).navigate(R.id.actionbacktohome);
 
                     }
@@ -99,6 +119,50 @@ public class CreateUSerFrag extends Fragment {
 
             }
         });
+
+
+    update.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v1) {
+            final View mViewhome=v1;
+           String id=appPreferences.getData("employeeid");
+
+            UpdateRequest request =new UpdateRequest();
+            request.setName(name.getEditText().getText().toString());
+            request.setSalary(salary.getEditText().getText().toString());
+            request.setAge(age.getEditText().getText().toString());
+            try {
+                Gson gson = new Gson();
+                Json = gson.toJson(request).trim();
+                System.out.println("FinalData................\n" + Json.toString());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            try {
+                requestBody = RequestBody.create(MediaType.parse("application/json"), Json.getBytes("UTF-8"));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            Call<UpdateResponse> updateResponseCall=api.updateCall(requestBody,id);
+            updateResponseCall.enqueue(new Callback<UpdateResponse>() {
+                @Override
+                public void onResponse(Call<UpdateResponse> call, Response<UpdateResponse> response) {
+                    Toast.makeText(getContext(), "Updated", Toast.LENGTH_SHORT).show();
+
+                    Navigation.findNavController(mViewhome).navigate(R.id.actionbacktohome);
+
+                }
+
+                @Override
+                public void onFailure(Call<UpdateResponse> call, Throwable t) {
+                    Toast.makeText(getContext(), "API FAILURE", Toast.LENGTH_SHORT).show();
+                    Navigation.findNavController(mViewhome).navigate(R.id.actionbacktohome);
+
+                }
+            });
+
+        }
+    });
 
     }
 }

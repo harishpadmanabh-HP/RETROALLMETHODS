@@ -29,6 +29,9 @@
         <action
             android:id="@+id/next_action"
             app:destination="@id/createUSerFrag" />
+        <action
+            android:id="@+id/action_employeeDetailsFragment_to_createUSerFrag"
+            app:destination="@+id/createUSerFrag" />
     </fragment>
     <fragment
         android:id="@+id/createUSerFrag"

@@ -5,12 +5,15 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 import com.hp.hp.retroallmethods.Api_client.Api_client;
 import com.hp.hp.retroallmethods.Api_interface.API_interface;
 import com.hp.hp.retroallmethods.AppPreference.AppPreferences;
@@ -24,6 +27,7 @@ public class EmployeeDetailsFragment extends Fragment {
     AppPreferences appPreferences;
     String id;
     TextView name,age,salary;
+    ExtendedFloatingActionButton update;
 
     public EmployeeDetailsFragment() {
         // Required empty public constructor
@@ -45,6 +49,7 @@ public class EmployeeDetailsFragment extends Fragment {
 
         id=appPreferences.getData("employeeid");
 
+        update=view.findViewById(R.id.update);
         name=view.findViewById(R.id.displayname);
         age=view.findViewById(R.id.dispage);
         salary=view.findViewById(R.id.displaysalary);
@@ -69,6 +74,17 @@ public class EmployeeDetailsFragment extends Fragment {
                 Toast.makeText(getContext(), "API FAILURE", Toast.LENGTH_SHORT).show();
             }
         });
+
+        update.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_employeeDetailsFragment_to_createUSerFrag);
+                appPreferences.saveInt("update",1);
+
+            }
+        });
+
+
 
 
     }

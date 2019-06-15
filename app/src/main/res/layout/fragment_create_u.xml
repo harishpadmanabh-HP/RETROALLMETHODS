@@ -7,7 +7,7 @@
     tools:context=".CreateUSerFrag">
 
     <LinearLayout
-        android:background="#4E0D3A"
+        android:background="#FFFFFF"
 
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -15,11 +15,12 @@
 
 
         <TextView
+            android:id="@+id/head"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Create new Employee "
             android:textSize="25dp"
-            android:textColor="#FFF"
+            android:textColor="#FF3D00"
             android:layout_gravity="center"
             android:layout_margin="30dp"
             />
@@ -33,17 +34,16 @@
             android:layout_margin="20dp"
             android:backgroundTint="#720D5D"
             android:hint="Name"
-            app:boxBackgroundColor="#B83F9F"
 
-
+app:hintAnimationEnabled="true"
             app:boxBackgroundMode="outline"
             app:boxStrokeColor="#F9AA33"
-            app:hintTextColor="#fff">
+            app:hintTextColor="#FF3D00">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textColor="#FFF" />
+                android:textColor="#FF1744" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -55,17 +55,16 @@
             android:layout_margin="20dp"
             android:backgroundTint="#720D5D"
             android:hint="Age"
-            app:boxBackgroundColor="#B83F9F"
 
             app:boxBackgroundMode="outline"
             app:boxStrokeColor="#F9AA33"
-            app:hintTextColor="#fff">
+            app:hintTextColor="#2979FF">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
 
-                android:textColor="#FFF" />
+                android:textColor="#FF1744" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -77,17 +76,16 @@
             android:layout_margin="20dp"
             android:backgroundTint="#720D5D"
             android:hint="Salary"
-            app:boxBackgroundColor="#B83F9F"
 
             app:boxBackgroundMode="outline"
             app:boxStrokeColor="#F9AA33"
-            app:hintTextColor="#fff">
+            app:hintTextColor="#3D5AFE">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
 
-                android:textColor="#FFF" />
+                android:textColor="#FF1744" />
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/create"
@@ -98,6 +96,17 @@
             android:layout_marginTop="40dp"
             android:gravity="center"
             android:text="CREATE"
+            android:textColor="#FFF"
+            app:icon="@drawable/ic_people_outline_black_24dp" />
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/updateuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Update"
             android:textColor="#FFF"
             app:icon="@drawable/ic_people_outline_black_24dp" />
 
