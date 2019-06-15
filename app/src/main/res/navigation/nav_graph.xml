@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/employeeListFragment"
-        android:name="com.hp.hp.retroallmethods.EmployeeListFragment"
+        android:name="com.hp.hp.retroallmethods.Fragments.EmployeeListFragment"
         android:label="fragment_employee_list"
         tools:layout="@layout/fragment_employee_list" >
         <action
@@ -23,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/employeeDetailsFragment"
-        android:name="com.hp.hp.retroallmethods.EmployeeDetailsFragment"
+        android:name="com.hp.hp.retroallmethods.Fragments.EmployeeDetailsFragment"
         android:label="fragment_employee_details"
         tools:layout="@layout/fragment_employee_details" >
         <action
@@ -35,7 +35,7 @@
     </fragment>
     <fragment
         android:id="@+id/createUSerFrag"
-        android:name="com.hp.hp.retroallmethods.CreateUSerFrag"
+        android:name="com.hp.hp.retroallmethods.Fragments.CreateUSerFrag"
         android:label="fragment_create_u"
         tools:layout="@layout/fragment_create_u" >
         <action

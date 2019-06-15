@@ -1,4 +1,4 @@
-package com.hp.hp.retroallmethods;
+package com.hp.hp.retroallmethods.Fragments;
 
 import android.os.Bundle;
 
@@ -23,6 +23,7 @@ import com.hp.hp.retroallmethods.Model.CreateEmployeeRequest;
 import com.hp.hp.retroallmethods.Model.CreateEmployeeResponse;
 import com.hp.hp.retroallmethods.Model.UpdateRequest;
 import com.hp.hp.retroallmethods.Model.UpdateResponse;
+import com.hp.hp.retroallmethods.R;
 
 import okhttp3.MediaType;
 import okhttp3.RequestBody;

@@ -1,4 +1,4 @@
-package com.hp.hp.retroallmethods;
+package com.hp.hp.retroallmethods.Fragments;
 
 import android.os.Bundle;
 
@@ -18,6 +18,7 @@ import com.hp.hp.retroallmethods.Api_client.Api_client;
 import com.hp.hp.retroallmethods.Api_interface.API_interface;
 import com.hp.hp.retroallmethods.AppPreference.AppPreferences;
 import com.hp.hp.retroallmethods.Model.EmployeeDetails;
+import com.hp.hp.retroallmethods.R;
 
 import retrofit2.Call;
 import retrofit2.Callback;
