@@ -43,6 +43,17 @@
             app:icon="@drawable/ic_people_outline_black_24dp"
             />
 
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/mkbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Get Mk"
+            android:textColor="#FFF"
+            app:icon="@drawable/ic_people_outline_black_24dp" />
+
         <com.google.android.material.bottomappbar.BottomAppBar
             android:id="@+id/bar"
             android:backgroundTint="#2F3C42"

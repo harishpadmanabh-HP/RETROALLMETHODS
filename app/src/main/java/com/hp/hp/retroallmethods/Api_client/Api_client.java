@@ -34,4 +34,11 @@ public class Api_client {
                 .build();
         return retrofit;
     }
+    public static Retrofit getMK() {
+        retrofit = new Retrofit.Builder()
+                .baseUrl("https://my-json-server.typicode.com/harishpadmanabh-HP/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        return retrofit;
+    }
 }

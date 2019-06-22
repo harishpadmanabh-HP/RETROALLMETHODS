@@ -5,6 +5,7 @@ import com.hp.hp.retroallmethods.Model.DealsModel;
 import com.hp.hp.retroallmethods.Model.EmployeeDetails;
 import com.hp.hp.retroallmethods.Model.EmployeeList;
 import com.hp.hp.retroallmethods.Model.MarvelModel;
+import com.hp.hp.retroallmethods.Model.MortalKombatModel;
 import com.hp.hp.retroallmethods.Model.UpdateResponse;
 
 import java.util.List;
@@ -58,4 +59,9 @@ public interface API_interface {
 
     @GET("marvel/")
     Call<List<MarvelModel>> marvelCall();
+
+    //https://my-json-server.typicode.com/harishpadmanabh-HP/RETROALLMETHODS/db
+
+    @GET("RETROALLMETHODS/db")
+    Call<MortalKombatModel> mkCall();
 }

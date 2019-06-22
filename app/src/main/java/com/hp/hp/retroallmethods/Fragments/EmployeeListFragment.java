@@ -46,7 +46,7 @@ public class EmployeeListFragment extends Fragment {
     List<EmployeeList> employeeLists;
     AppPreferences appPreferences;
     FloatingActionButton floatingActionButton;
-    ExtendedFloatingActionButton deals,marvel;
+    ExtendedFloatingActionButton deals,marvel,mk;
 
     AlertDialog pd;
     public EmployeeListFragment() {
@@ -85,6 +85,14 @@ public class EmployeeListFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Navigation.findNavController(v).navigate(R.id.actionMarvel);
+
+            }
+        });
+        mk=view.findViewById(R.id.mkbtn);
+        mk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.actionmk);
 
             }
         });

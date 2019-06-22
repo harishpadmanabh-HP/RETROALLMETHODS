@@ -26,6 +26,9 @@
         <action
             android:id="@+id/actionMarvel"
             app:destination="@id/marvelList" />
+        <action
+            android:id="@+id/actionmk"
+            app:destination="@id/mk2" />
     </fragment>
     <fragment
         android:id="@+id/employeeDetailsFragment"
@@ -67,4 +70,9 @@
         android:name="com.hp.hp.retroallmethods.Fragments.MarvelDetails"
         android:label="fragment_marvel_details"
         tools:layout="@layout/fragment_marvel_details" />
+    <fragment
+        android:id="@+id/mk2"
+        android:name="com.hp.hp.retroallmethods.Fragments.Mk"
+        android:label="fragment_mk"
+        tools:layout="@layout/fragment_mk" />
 </navigation>
