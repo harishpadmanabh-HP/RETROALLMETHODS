@@ -2,8 +2,18 @@
   "posts": [
     {
       "id": 1,
-      "title": "hello",
-      "image":"https://i.ibb.co/NmcWKJC/bhg.png"
+      "title":"SUB-ZERO",
+      "image":"https://i.ibb.co/SKYwqC9/sub-zero-character-render.jpg"
+    },
+     {
+      "id": 2,
+      "title":"Scorpion",
+      "image":"https://i.ibb.co/XkkvMSx/mortal-kombat-x-2560x1440-scorpion-fighting-ps4-xbox-one-10739.jpg"
+    },
+     {
+      "id": 2,
+      "title":"Liu Kang",
+      "image":"https://i.ibb.co/FHyw95v/mortak-kombat-x-mkx-liu-kang-2036.jpg"
     }
   ],
   "profile": {
