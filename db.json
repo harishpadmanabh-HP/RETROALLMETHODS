@@ -2,10 +2,11 @@
   "posts": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "kabal",
+      "image":"https://i.ibb.co/7n2x9V9/images.jpg"
     }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "MortalKombat"
   }
 }
