@@ -50,8 +50,9 @@
   "profile": {
     "name": "MortalKombat"
   },
-  "story":{ "https://www.youtube.com/watch?v=01TDCYLucdc",
+  "story":{ 
+    "YOUTUBELINKS" : [ "https://www.youtube.com/watch?v=01TDCYLucdc",
            "https://www.youtube.com/watch?v=01TDCYLucdc"
-    
+    ]
   }
 }
