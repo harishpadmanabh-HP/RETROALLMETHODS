@@ -1,6 +1,7 @@
 package com.hp.hp.retroallmethods.Fragments;
 
 
+import android.app.AlertDialog;
 import android.content.Context;
 import android.os.Bundle;
 
@@ -15,16 +16,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.hp.hp.retroallmethods.Api_client.Api_client;
 import com.hp.hp.retroallmethods.Api_interface.API_interface;
 import com.hp.hp.retroallmethods.AppPreference.AppPreferences;
+import com.hp.hp.retroallmethods.Model.DealsModel;
 import com.hp.hp.retroallmethods.Model.EmployeeList;
 import com.hp.hp.retroallmethods.R;
 
 import java.util.List;
 
+import dmax.dialog.SpotsDialog;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.GsonConverterFactory;
@@ -41,8 +46,9 @@ public class EmployeeListFragment extends Fragment {
     List<EmployeeList> employeeLists;
     AppPreferences appPreferences;
     FloatingActionButton floatingActionButton;
+    ExtendedFloatingActionButton deals,marvel;
 
-
+    AlertDialog pd;
     public EmployeeListFragment() {
         // Required empty public constructor
     }
@@ -61,8 +67,27 @@ public class EmployeeListFragment extends Fragment {
         recyclerView=view.findViewById(R.id.employeelist);
        API_interface api = Api_client.getClient().create(API_interface.class);
         appPreferences = AppPreferences.getInstance(getContext(), getResources().getString(R.string.app_name));
+        pd = new SpotsDialog(getActivity(),R.style.CustomAlert);
+        pd.show();
 
         floatingActionButton=view.findViewById(R.id.fab);
+        deals=view.findViewById(R.id.getdeals);
+        deals.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.actiongetDeals);
+
+            }
+        });
+
+        marvel=view.findViewById(R.id.marvel);
+        marvel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.actionMarvel);
+
+            }
+        });
 
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,6 +109,7 @@ public class EmployeeListFragment extends Fragment {
                 recyclerView.setLayoutManager(verticalLayoutmanager);
                 RecyclerAdapter recyclerAdapter=new RecyclerAdapter(getActivity(),employeeLists);
                 recyclerView.setAdapter(recyclerAdapter);
+                pd.dismiss();
             }
 
             @Override
@@ -91,10 +117,6 @@ public class EmployeeListFragment extends Fragment {
 
             }
         });
-
-
-
-
 
     }
     class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.EmpViewHolder> {

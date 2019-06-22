@@ -20,4 +20,18 @@ public class Api_client {
                 .build();
         return retrofit;
     }
+    public static Retrofit getDeals() {
+        retrofit = new Retrofit.Builder()
+                .baseUrl("http://sicsglobal.com/App_projects/dyetcash/api/v1/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        return retrofit;
+    }
+    public static Retrofit getMarvel() {
+        retrofit = new Retrofit.Builder()
+                .baseUrl("https://simplifiedcoding.net/demos/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        return retrofit;
+    }
 }

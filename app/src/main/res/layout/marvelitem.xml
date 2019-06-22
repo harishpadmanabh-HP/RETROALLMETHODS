@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.github.florent37.shapeofview.ShapeOfView
+        android:id="@+id/shapecustom"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+
+        app:shape_clip_drawable="@drawable/ic_android_black_24dp"
+        >
+        <ImageView
+            android:id="@+id/marvelimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/em"
+            />
+
+        <!-- YOUR CONTENT -->
+
+    </com.github.florent37.shapeofview.ShapeOfView>
+
+    <TextView
+        android:id="@+id/marvelname"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/shapecustom"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="92dp"
+        android:text="name"
+        android:textAllCaps="true"
+        android:fontFamily="casual"
+        android:textSize="20dp"
+        android:textColor="#FF3D00"
+        />
+
+</RelativeLayout>

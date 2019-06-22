@@ -55,7 +55,7 @@ public class EmployeeDetailsFragment extends Fragment {
         age=view.findViewById(R.id.dispage);
         salary=view.findViewById(R.id.displaysalary);
 
-        Call<EmployeeDetails> employeeDetailsCall =api.employeeDetailCall("49054");
+        Call<EmployeeDetails> employeeDetailsCall =api.employeeDetailCall(id);
         employeeDetailsCall.enqueue(new Callback<EmployeeDetails>() {
             @Override
             public void onResponse(Call<EmployeeDetails> call, Response<EmployeeDetails> response) {

@@ -1,8 +1,10 @@
 package com.hp.hp.retroallmethods.Api_interface;
 
 import com.hp.hp.retroallmethods.Model.CreateEmployeeResponse;
+import com.hp.hp.retroallmethods.Model.DealsModel;
 import com.hp.hp.retroallmethods.Model.EmployeeDetails;
 import com.hp.hp.retroallmethods.Model.EmployeeList;
+import com.hp.hp.retroallmethods.Model.MarvelModel;
 import com.hp.hp.retroallmethods.Model.UpdateResponse;
 
 import java.util.List;
@@ -47,5 +49,13 @@ public interface API_interface {
     @PUT("/update/{id}")
     Call<UpdateResponse> updateCall(@Body RequestBody requestBody,@Path("id") String id);
 
+//http://sicsglobal.com/App_projects/dyetcash/api/v1/deals
 
+    @GET("deals")
+    Call<DealsModel> dealsCall();
+
+    //https://simplifiedcoding.net/demos/marvel/
+
+    @GET("marvel/")
+    Call<List<MarvelModel>> marvelCall();
 }

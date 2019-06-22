@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.MarvelDetails">
+
+    <RelativeLayout
+        android:background="#523838"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.github.florent37.shapeofview.shapes.DiagonalView
+           android:id="@+id/shapecustom"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:elevation="44dp"
+            app:shape_diagonal_angle="11"
+            app:shape_diagonal_direction="left"
+            app:shape_diagonal_position="bottom">
+
+            <!-- YOUR CONTENT -->
+            <com.flaviofaria.kenburnsview.KenBurnsView
+                android:id="@+id/marveldisplayimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_launcher_background" />
+
+
+        </com.github.florent37.shapeofview.shapes.DiagonalView>
+
+        <TextView
+            android:id="@+id/displayname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:layout_below="@id/shapecustom"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:id="@+id/displayrealname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="realname"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_below="@+id/displayname"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:id="@+id/displayteam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="realname"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_below="@+id/displayrealname"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scroll"
+            android:layout_below="@id/displayteam"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:id="@+id/displaybio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bio"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_below="@+id/displayrealname"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                />
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

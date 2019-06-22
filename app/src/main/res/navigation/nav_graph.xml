@@ -20,6 +20,12 @@
             app:destination="@id/createUSerFrag"
             app:enterAnim="@anim/nav_default_pop_enter_anim"
             app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/actiongetDeals"
+            app:destination="@id/dealsFragment" />
+        <action
+            android:id="@+id/actionMarvel"
+            app:destination="@id/marvelList" />
     </fragment>
     <fragment
         android:id="@+id/employeeDetailsFragment"
@@ -42,4 +48,23 @@
             android:id="@+id/actionbacktohome"
             app:destination="@id/employeeListFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/dealsFragment"
+        android:name="com.hp.hp.retroallmethods.Fragments.DealsFragment"
+        android:label="fragment_deals"
+        tools:layout="@layout/fragment_deals" />
+    <fragment
+        android:id="@+id/marvelList"
+        android:name="com.hp.hp.retroallmethods.Fragments.MarvelList"
+        android:label="fragment_marvel_list"
+        tools:layout="@layout/fragment_marvel_list" >
+        <action
+            android:id="@+id/marvelDetailaction"
+            app:destination="@id/marvelDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/marvelDetails"
+        android:name="com.hp.hp.retroallmethods.Fragments.MarvelDetails"
+        android:label="fragment_marvel_details"
+        tools:layout="@layout/fragment_marvel_details" />
 </navigation>

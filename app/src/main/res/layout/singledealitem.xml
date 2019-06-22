@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.github.florent37.shapeofview.shapes.BubbleView
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+
+        app:shape_bubble_arrowHeight="10dp"
+        app:shape_bubble_arrowPosition="bottom"
+        app:shape_bubble_arrowWidth="10dp"
+        app:shape_bubble_borderRadius="20dp">
+
+        <!-- YOUR CONTENT -->
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:id="@+id/dealimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background" />
+
+    </com.github.florent37.shapeofview.shapes.BubbleView>
+
+    <TextView
+        android:id="@+id/dealname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="qqqqqqqqqqqq"
+        android:textSize="40dp"
+        android:textColor="#fff"
+        />
+</RelativeLayout>

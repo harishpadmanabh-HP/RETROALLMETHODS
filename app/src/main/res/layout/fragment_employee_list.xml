@@ -17,6 +17,31 @@
             android:layout_height="match_parent">
 
         </androidx.recyclerview.widget.RecyclerView>
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/getdeals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Get Deals"
+            android:textColor="#FFF"
+            app:icon="@drawable/ic_people_outline_black_24dp"
+            />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/marvel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Get Marvel"
+            android:textColor="#FFF"
+            app:icon="@drawable/ic_people_outline_black_24dp"
+            />
 
         <com.google.android.material.bottomappbar.BottomAppBar
             android:id="@+id/bar"
@@ -28,13 +53,13 @@
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
-            android:backgroundTint="#F9AA33"
-            android:padding="30dp"
-            app:fabSize="auto"
-            android:src="@drawable/ic_add_black_24dp"
-            android:layout_width="wrap_content"
+            android:layout_width="49dp"
             android:layout_height="wrap_content"
-            app:layout_anchor="@id/bar" />
+            android:backgroundTint="#F9AA33"
+            android:src="@drawable/ic_add_black_24dp"
+            app:fabSize="auto"
+            app:layout_anchor="@id/bar"
+            />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
    </FrameLayout>
