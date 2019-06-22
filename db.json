@@ -4,23 +4,8 @@
       "id": 1,
       "title":"SUB-ZERO",
       "image":"https://i.ibb.co/SKYwqC9/sub-zero-character-render.jpg"
-    },
-     {
-      "id": 2,
-      "title":"Scorpion",
-      "image":"https://i.ibb.co/XkkvMSx/mortal-kombat-x-2560x1440-scorpion-fighting-ps4-xbox-one-10739.jpg"
-    },
-     {
-      "id": 3,
-      "title":"Liu Kang",
-      "image":"https://i.ibb.co/FHyw95v/mortak-kombat-x-mkx-liu-kang-2036.jpg"
-    },
-      {
-      "id": 4,
-      "title":"Kotal Kahn",
-      "image":"https://i.ibb.co/ZMdfN4F/da068s4-dbbb972d-8459-4bca-a4bd-8faedcf464af.png"
     }
-  ],
+    ],
   "profile": {
     "name": "Mortal Kombat"
   }
