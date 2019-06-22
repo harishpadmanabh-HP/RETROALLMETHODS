@@ -31,28 +31,18 @@
       "image":"https://i.ibb.co/MRwkq03/sub-zero-character-render.jpg"
     },{
       "id": 8,
-      "title": "kabal",
-      "image":"https://i.ibb.co/7n2x9V9/images.jpg"
+      "title": "Freddy Krugger",
+      "image":"https://i.ibb.co/XyM80fN/fredy.jpg"
     },{
-      "id": 1,
-      "title": "kabal",
-      "image":"https://i.ibb.co/7n2x9V9/images.jpg"
-    },{
-      "id": 1,
-      "title": "kabal",
-      "image":"https://i.ibb.co/7n2x9V9/images.jpg"
-    },{
-      "id": 1,
-      "title": "kabal",
-      "image":"https://i.ibb.co/7n2x9V9/images.jpg"
+      "id": 9,
+      "title": "Quan Chi",
+      "image":"https://i.ibb.co/PcvgkSc/quan.jpg"
     }
   ],
   "profile": {
     "name": "MortalKombat"
   },
   "story":{ 
-    "YOUTUBELINKS" : [ "https://www.youtube.com/watch?v=01TDCYLucdc",
-           "https://www.youtube.com/watch?v=01TDCYLucdc"
-    ]
+    "YOUTUBELINKS" :"https://www.youtube.com/watch?v=qECXCLaHPgo"
   }
 }
