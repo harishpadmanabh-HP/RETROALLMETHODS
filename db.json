@@ -2,11 +2,10 @@
   "posts": [
     {
       "id": 1,
-      "title":"SUB-ZERO",
-      "image":"https://i.ibb.co/SKYwqC9/sub-zero-character-render.jpg"
+      "title": "hello"
     }
-    ],
+  ],
   "profile": {
-    "name": "Mortal Kombat"
+    "name": "typicode"
   }
 }
