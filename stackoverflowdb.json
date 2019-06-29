@@ -1,0 +1,758 @@
+{
+"items": [
+{
+"tags": [4 items],
+"owner": {7 items},
+"is_answered": true,
+"view_count": 69,
+"answer_count": 1,
+"score": -1,
+"last_activity_date": 1561817136,
+"creation_date": 1391892589,
+"last_edit_date": 1561817136,
+"question_id": 21651658,
+"link": "https://stackoverflow.com/questions/21651658/writing-order-string-into-text-file",
+"title": "Writing order string into text file"
+},
+{
+"tags": [
+"amazon-web-services",
+"amazon-ec2",
+"aws-lambda",
+"aws-sdk"
+],
+"owner": {
+"reputation": 11,
+"user_id": 11714578,
+"user_type": "registered",
+"profile_image": "https://i.stack.imgur.com/3Yh3J.jpg?s=128&g=1",
+"display_name": "Shah4All",
+"link": "https://stackoverflow.com/users/11714578/shah4all"
+},
+"is_answered": false,
+"view_count": 1,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817133,
+"creation_date": 1561817133,
+"question_id": 56818171,
+"link": "https://stackoverflow.com/questions/56818171/allocate-predefined-private-ips-when-launching-ec2-using-auto-scaling-group",
+"title": "Allocate Predefined Private IPs when launching EC2 using Auto Scaling Group"
+},
+{
+"tags": [
+"python",
+"machine-learning",
+"scipy-optimize-minimize"
+],
+"owner": {
+"reputation": 9,
+"user_id": 2908136,
+"user_type": "registered",
+"accept_rate": 100,
+"profile_image": "https://www.gravatar.com/avatar/f7e2f3001156e29e8ce163e287d33c98?s=128&d=identicon&r=PG&f=1",
+"display_name": "linesd",
+"link": "https://stackoverflow.com/users/2908136/linesd"
+},
+"is_answered": false,
+"view_count": 2,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817130,
+"creation_date": 1561817130,
+"question_id": 56818170,
+"link": "https://stackoverflow.com/questions/56818170/scipy-optimize-minimize-changes-the-shape-of-x0-initial-guess-during-minimisat",
+"title": "scipy.optimize.minimize changes the shape of x0 (initial guess) during minimisation"
+},
+{
+"tags": [
+"angular",
+"angular2-routing"
+],
+"owner": {
+"reputation": 8227,
+"user_id": 118584,
+"user_type": "registered",
+"accept_rate": 67,
+"profile_image": "https://www.gravatar.com/avatar/89d52b51651acec30d586289a917c523?s=128&d=identicon&r=PG",
+"display_name": "Kris-I",
+"link": "https://stackoverflow.com/users/118584/kris-i"
+},
+"is_answered": false,
+"view_count": 25,
+"answer_count": 1,
+"score": 0,
+"last_activity_date": 1561817124,
+"creation_date": 1561813398,
+"question_id": 56817766,
+"link": "https://stackoverflow.com/questions/56817766/routing-problem-with-angular-5-and-router-navigate",
+"title": "Routing problem with Angular 5 and router.navigate"
+},
+{
+"tags": [
+"python",
+"bit-manipulation",
+"combinatorics",
+"game-theory"
+],
+"owner": {
+"reputation": 342,
+"user_id": 4260902,
+"user_type": "registered",
+"accept_rate": 78,
+"profile_image": "https://graph.facebook.com/100000665496061/picture?type=large",
+"display_name": "Michael Choi",
+"link": "https://stackoverflow.com/users/4260902/michael-choi"
+},
+"is_answered": false,
+"view_count": 28,
+"answer_count": 1,
+"score": 0,
+"last_activity_date": 1561817122,
+"creation_date": 1561569995,
+"last_edit_date": 1561571710,
+"question_id": 56778188,
+"link": "https://stackoverflow.com/questions/56778188/explanation-on-stone-nim-game",
+"title": "Explanation on Stone Nim Game"
+},
+{
+"tags": [
+"angular",
+"docker",
+"nginx"
+],
+"owner": {
+"reputation": 157,
+"user_id": 1635355,
+"user_type": "registered",
+"accept_rate": 25,
+"profile_image": "https://www.gravatar.com/avatar/91b3a22533518975494ab92c3c2e4261?s=128&d=identicon&r=PG",
+"display_name": "Sven W.",
+"link": "https://stackoverflow.com/users/1635355/sven-w"
+},
+"is_answered": false,
+"view_count": 11,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817118,
+"creation_date": 1561816604,
+"last_edit_date": 1561817118,
+"question_id": 56818109,
+"link": "https://stackoverflow.com/questions/56818109/forwarding-by-different-location-does-not-work",
+"title": "Forwarding by Different Location Does Not Work"
+},
+{
+"tags": [
+"hibernate",
+"jpa"
+],
+"owner": {
+"reputation": 21,
+"user_id": 11687168,
+"user_type": "registered",
+"profile_image": "https://lh3.googleusercontent.com/-jFS35-JLTDI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdo2XT8cldJRhk5uSpohCS673zTzA/mo/photo.jpg?sz=128",
+"display_name": "sdsdsdsd fdfdfwwq",
+"link": "https://stackoverflow.com/users/11687168/sdsdsdsd-fdfdfwwq"
+},
+"is_answered": false,
+"view_count": 13,
+"answer_count": 1,
+"score": 0,
+"last_activity_date": 1561817116,
+"creation_date": 1561790673,
+"last_edit_date": 1561817116,
+"question_id": 56815622,
+"link": "https://stackoverflow.com/questions/56815622/join-between-two-tables-of-jpa-is-not-working",
+"title": "join between two tables of JPA is not working"
+},
+{
+"tags": [
+"python-3.x",
+"pandas",
+"csv"
+],
+"owner": {
+"reputation": 698,
+"user_id": 9793316,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/b327e8b8a1ec719535e7b730ff5cced2?s=128&d=identicon&r=PG&f=1",
+"display_name": "Raven Cheuk",
+"link": "https://stackoverflow.com/users/9793316/raven-cheuk"
+},
+"is_answered": false,
+"view_count": 2,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817114,
+"creation_date": 1561817114,
+"question_id": 56818168,
+"link": "https://stackoverflow.com/questions/56818168/pandas-is-creating-not-existant-extra-digits-in-the-end-of-a-float-number",
+"title": "Pandas is creating not existant extra digits in the end of a float number"
+},
+{
+"tags": [
+"ruby-on-rails",
+"ruby",
+"ruby-on-rails-4"
+],
+"owner": {
+"reputation": 961,
+"user_id": 2400445,
+"user_type": "registered",
+"accept_rate": 76,
+"profile_image": "https://i.stack.imgur.com/h7Bym.jpg?s=128&g=1",
+"display_name": "Nidhin S G",
+"link": "https://stackoverflow.com/users/2400445/nidhin-s-g"
+},
+"is_answered": true,
+"view_count": 114,
+"accepted_answer_id": 24182304,
+"answer_count": 2,
+"score": 0,
+"last_activity_date": 1561817107,
+"creation_date": 1402569240,
+"last_edit_date": 1561817107,
+"question_id": 24182234,
+"link": "https://stackoverflow.com/questions/24182234/writing-button-tag-with-rails-condition",
+"title": "Writing Button Tag with rails condition"
+},
+{
+"tags": [
+"reactjs",
+"redux",
+"redux-saga",
+"serverside-rendering"
+],
+"owner": {
+"reputation": 8465,
+"user_id": 917467,
+"user_type": "registered",
+"accept_rate": 76,
+"profile_image": "https://www.gravatar.com/avatar/a2ac78fe7434fd99ce7a484a47e7c337?s=128&d=identicon&r=PG&f=1",
+"display_name": "Trace",
+"link": "https://stackoverflow.com/users/917467/trace"
+},
+"is_answered": false,
+"view_count": 4,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817107,
+"creation_date": 1561816846,
+"last_edit_date": 1561817107,
+"question_id": 56818139,
+"link": "https://stackoverflow.com/questions/56818139/how-to-wait-until-sagas-have-finished",
+"title": "How to wait until sagas have finished?"
+},
+{
+"tags": [
+".net",
+"msbuild"
+],
+"owner": {
+"reputation": 7375,
+"user_id": 89706,
+"user_type": "registered",
+"accept_rate": 96,
+"profile_image": "https://www.gravatar.com/avatar/7484b466a474ebffc58e91bc5aa7e892?s=128&d=identicon&r=PG",
+"display_name": "Ofek Shilon",
+"link": "https://stackoverflow.com/users/89706/ofek-shilon"
+},
+"is_answered": false,
+"view_count": 2,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817104,
+"creation_date": 1561817104,
+"question_id": 56818167,
+"link": "https://stackoverflow.com/questions/56818167/msbuild-assigns-wrong-targetframeworksdktoolsdirectory",
+"title": "MSBuild assigns wrong TargetFrameworkSDKToolsDirectory"
+},
+{
+"tags": [
+"mysql",
+"kubernetes",
+"backup",
+"google-kubernetes-engine"
+],
+"owner": {
+"reputation": 419,
+"user_id": 2160816,
+"user_type": "registered",
+"accept_rate": 54,
+"profile_image": "https://www.gravatar.com/avatar/61f072f5dc8fd06773f64e031aadc03d?s=128&d=identicon&r=PG",
+"display_name": "lippoliv",
+"link": "https://stackoverflow.com/users/2160816/lippoliv"
+},
+"is_answered": false,
+"view_count": 2,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817103,
+"creation_date": 1561817103,
+"question_id": 56818166,
+"link": "https://stackoverflow.com/questions/56818166/google-kubernetes-engine-mysql-dump-at-midnight",
+"title": "Google Kubernetes Engine mysql dump at midnight"
+},
+{
+"tags": [
+"ansible"
+],
+"owner": {
+"reputation": 316,
+"user_id": 791534,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/35865df2405569017bc583ae3c5fc220?s=128&d=identicon&r=PG",
+"display_name": "acoomans",
+"link": "https://stackoverflow.com/users/791534/acoomans"
+},
+"is_answered": false,
+"view_count": 12,
+"answer_count": 0,
+"score": -3,
+"last_activity_date": 1561817100,
+"creation_date": 1561751823,
+"last_edit_date": 1561817100,
+"question_id": 56812563,
+"link": "https://stackoverflow.com/questions/56812563/ansible-playbook-playbook-yml-does-not-work",
+"title": "ansible-playbook playbook.yml does not work"
+},
+{
+"tags": [
+"asp.net",
+"core",
+"visual-studio-2019"
+],
+"owner": {
+"reputation": 11,
+"user_id": 10676506,
+"user_type": "registered",
+"profile_image": "https://lh4.googleusercontent.com/-rb_QkLmwQm8/AAAAAAAAAAI/AAAAAAAAAU4/8IomykkvkPA/photo.jpg?sz=128",
+"display_name": "Techguy",
+"link": "https://stackoverflow.com/users/10676506/techguy"
+},
+"is_answered": false,
+"view_count": 2,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817099,
+"creation_date": 1561817099,
+"question_id": 56818165,
+"link": "https://stackoverflow.com/questions/56818165/getting-http-error-500-0-while-using-asp-net-core-project",
+"title": "Getting HTTP error 500.0 While using ASP.net core project"
+},
+{
+"tags": [
+"excel",
+"vba"
+],
+"owner": {
+"reputation": 1,
+"user_id": 11716925,
+"user_type": "registered",
+"profile_image": "https://lh5.googleusercontent.com/-901YpKSWoV0/AAAAAAAAAAI/AAAAAAAAAHo/S_r9GPBcsZE/photo.jpg?sz=128",
+"display_name": "Afdzal Yunus",
+"link": "https://stackoverflow.com/users/11716925/afdzal-yunus"
+},
+"is_answered": false,
+"view_count": 18,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817096,
+"creation_date": 1561808002,
+"last_edit_date": 1561817096,
+"question_id": 56817212,
+"link": "https://stackoverflow.com/questions/56817212/subscript-out-of-range-error-for-listobject",
+"title": "&quot;Subscript out of range&quot; error for ListObject"
+},
+{
+"tags": [
+"java",
+"integer",
+"reverse"
+],
+"owner": {
+"reputation": 3673,
+"user_id": 236501,
+"user_type": "registered",
+"accept_rate": 59,
+"profile_image": "https://www.gravatar.com/avatar/8fafd40498647852297d7cfde8700565?s=128&d=identicon&r=PG",
+"display_name": "user236501",
+"link": "https://stackoverflow.com/users/236501/user236501"
+},
+"is_answered": true,
+"view_count": 146960,
+"accepted_answer_id": 3806212,
+"answer_count": 31,
+"score": 33,
+"last_activity_date": 1561817089,
+"creation_date": 1285607605,
+"last_edit_date": 1493433278,
+"question_id": 3806126,
+"link": "https://stackoverflow.com/questions/3806126/java-reverse-an-int-value-without-using-array",
+"title": "Java reverse an int value without using array"
+},
+{
+"tags": [
+"javascript",
+"jquery",
+"html"
+],
+"owner": {
+"reputation": 205,
+"user_id": 1349726,
+"user_type": "registered",
+"accept_rate": 98,
+"profile_image": "https://graph.facebook.com/100000577502013/picture?type=large",
+"display_name": "Houy Narun",
+"link": "https://stackoverflow.com/users/1349726/houy-narun"
+},
+"is_answered": false,
+"view_count": 47,
+"answer_count": 1,
+"score": 2,
+"last_activity_date": 1561817082,
+"creation_date": 1520488960,
+"question_id": 49166429,
+"link": "https://stackoverflow.com/questions/49166429/how-to-wrap-any-content-or-element-outside-table-tr-tag-with-tr-or-td-tags-prope",
+"title": "How to wrap any content or element outside table tr tag with tr or td tags properly?"
+},
+{
+"tags": [
+"excel",
+"vba",
+"excel-vba"
+],
+"owner": {
+"reputation": 1,
+"user_id": 11717474,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/3ca1c184ce94226346fd4736fb2ef5be?s=128&d=identicon&r=PG&f=1",
+"display_name": "Jano",
+"link": "https://stackoverflow.com/users/11717474/jano"
+},
+"is_answered": false,
+"view_count": 2,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817081,
+"creation_date": 1561817081,
+"question_id": 56818162,
+"link": "https://stackoverflow.com/questions/56818162/excel-vba-paste-complete-scripting-dictionary-into-a-sheet",
+"title": "Excel VBA: Paste complete scripting dictionary into a sheet"
+},
+{
+"tags": [
+"android",
+"junit",
+"mockito",
+"android-testing"
+],
+"owner": {
+"reputation": 255,
+"user_id": 3020796,
+"user_type": "registered",
+"accept_rate": 60,
+"profile_image": "https://i.stack.imgur.com/4Az58.png?s=128&g=1",
+"display_name": "Falling Into Infinity",
+"link": "https://stackoverflow.com/users/3020796/falling-into-infinity"
+},
+"is_answered": false,
+"view_count": 3,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817081,
+"creation_date": 1561817081,
+"question_id": 56818161,
+"link": "https://stackoverflow.com/questions/56818161/how-to-mock-a-system-class-for-type-casting",
+"title": "How to mock a system class for type casting"
+},
+{
+"tags": [
+"c",
+"file",
+"io"
+],
+"owner": {
+"reputation": 261,
+"user_id": 7347196,
+"user_type": "registered",
+"accept_rate": 80,
+"profile_image": "https://i.stack.imgur.com/7iB0u.png?s=128&g=1",
+"display_name": "Pouyan",
+"link": "https://stackoverflow.com/users/7347196/pouyan"
+},
+"is_answered": true,
+"view_count": 132,
+"closed_date": 1510558749,
+"accepted_answer_id": 45440345,
+"answer_count": 2,
+"score": -2,
+"last_activity_date": 1561817077,
+"creation_date": 1501596298,
+"last_edit_date": 1561817077,
+"question_id": 45440101,
+"link": "https://stackoverflow.com/questions/45440101/writing-to-a-file-in-c",
+"closed_reason": "unclear what you&#39;re asking",
+"title": "Writing to a File in C?"
+},
+{
+"tags": [
+"python",
+"tkinter"
+],
+"owner": {
+"reputation": 21,
+"user_id": 10381879,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/e0ed4aceea18d7bfe1c0d81712bd1e0e?s=128&d=identicon&r=PG&f=1",
+"display_name": "genc17",
+"link": "https://stackoverflow.com/users/10381879/genc17"
+},
+"is_answered": true,
+"view_count": 16,
+"accepted_answer_id": 56818027,
+"answer_count": 1,
+"score": 0,
+"last_activity_date": 1561817077,
+"creation_date": 1561812128,
+"question_id": 56817623,
+"link": "https://stackoverflow.com/questions/56817623/a-simple-hangman-game-on-tkinter-gui-gets-stuck",
+"title": "A simple hangman game on tkinter gui gets stuck"
+},
+{
+"tags": [
+"postgresql"
+],
+"owner": {
+"reputation": 19443,
+"user_id": 340688,
+"user_type": "registered",
+"accept_rate": 81,
+"profile_image": "https://www.gravatar.com/avatar/46a6db74ccc3bf4e009f875283401c14?s=128&d=identicon&r=PG",
+"display_name": "ThomasReggi",
+"link": "https://stackoverflow.com/users/340688/thomasreggi"
+},
+"is_answered": false,
+"view_count": 19,
+"answer_count": 3,
+"score": 0,
+"last_activity_date": 1561817073,
+"creation_date": 1561775355,
+"question_id": 56814694,
+"link": "https://stackoverflow.com/questions/56814694/merge-rows-from-union-replacing-null-columns-with-ones-with-value",
+"title": "Merge rows from union, replacing null columns with ones with value"
+},
+{
+"tags": [
+"ruby-on-rails",
+"ruby",
+"ruby-on-rails-3"
+],
+"owner": {
+"reputation": 73223,
+"user_id": 325418,
+"user_type": "registered",
+"accept_rate": 59,
+"profile_image": "https://www.gravatar.com/avatar/eb71c362ddeda80c2668d2575e97bc70?s=128&d=identicon&r=PG",
+"display_name": "太極者無極而生",
+"link": "https://stackoverflow.com/users/325418/%e5%a4%aa%e6%a5%b5%e8%80%85%e7%84%a1%e6%a5%b5%e8%80%8c%e7%94%9f"
+},
+"is_answered": true,
+"view_count": 26894,
+"accepted_answer_id": 5654580,
+"answer_count": 3,
+"score": 74,
+"last_activity_date": 1561817071,
+"creation_date": 1302722923,
+"last_edit_date": 1430521496,
+"question_id": 5654517,
+"link": "https://stackoverflow.com/questions/5654517/in-ruby-on-rails-to-extend-the-string-class-where-should-the-code-be-put-in",
+"title": "In Ruby on Rails, to extend the String class, where should the code be put in?"
+},
+{
+"tags": [
+"ios",
+"swift"
+],
+"owner": {
+"reputation": 918,
+"user_id": 10967889,
+"user_type": "registered",
+"profile_image": "https://i.stack.imgur.com/lrFdS.jpg?s=128&g=1",
+"display_name": "weegee",
+"link": "https://stackoverflow.com/users/10967889/weegee"
+},
+"is_answered": false,
+"view_count": 2,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817069,
+"creation_date": 1561817069,
+"question_id": 56818159,
+"link": "https://stackoverflow.com/questions/56818159/contextual-closure-type-conventionblock-void-expects-0-arguments-but",
+"title": "Contextual closure type &#39;@convention(block) () -&gt; Void&#39; expects 0 arguments, but 1 was used in closure body"
+},
+{
+"tags": [
+"java",
+"multithreading"
+],
+"owner": {
+"reputation": 861,
+"user_id": 1107129,
+"user_type": "registered",
+"accept_rate": 76,
+"profile_image": "https://www.gravatar.com/avatar/f1160d451293da39a425e89a39945278?s=128&d=identicon&r=PG",
+"display_name": "happy",
+"link": "https://stackoverflow.com/users/1107129/happy"
+},
+"is_answered": true,
+"view_count": 5283,
+"accepted_answer_id": 11020048,
+"answer_count": 2,
+"score": 0,
+"last_activity_date": 1561817068,
+"creation_date": 1339607789,
+"last_edit_date": 1561817068,
+"question_id": 11020005,
+"link": "https://stackoverflow.com/questions/11020005/how-to-suspend-thread-using-threads-id",
+"title": "How to suspend thread using thread&#39;s id?"
+},
+{
+"tags": [
+"javascript",
+"html",
+"reactjs",
+"heroku"
+],
+"owner": {
+"reputation": 2,
+"user_id": 7517701,
+"user_type": "registered",
+"profile_image": "https://lh3.googleusercontent.com/-DOwd6n2dyQc/AAAAAAAAAAI/AAAAAAAAAJc/bMdTZAA6G7I/photo.jpg?sz=128",
+"display_name": "Brian euqsarraT",
+"link": "https://stackoverflow.com/users/7517701/brian-euqsarrat"
+},
+"is_answered": false,
+"view_count": 7,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817065,
+"creation_date": 1561816264,
+"last_edit_date": 1561817065,
+"question_id": 56818077,
+"link": "https://stackoverflow.com/questions/56818077/heroku-react-app-shows-json-of-database-instead-of-ui",
+"title": "Heroku React app shows json of database instead of UI?"
+},
+{
+"tags": [
+"sql",
+"sql-server",
+"sum",
+"max"
+],
+"owner": {
+"reputation": 1,
+"user_id": 11582793,
+"user_type": "registered",
+"profile_image": "https://lh3.googleusercontent.com/-cXKyeurrK-g/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rc0mjTnRMRr-t8uVmUMd92o1n_nMA/mo/photo.jpg?sz=128",
+"display_name": "michael donte",
+"link": "https://stackoverflow.com/users/11582793/michael-donte"
+},
+"is_answered": true,
+"view_count": 35,
+"answer_count": 4,
+"score": 0,
+"last_activity_date": 1561817065,
+"creation_date": 1561807533,
+"last_edit_date": 1561808696,
+"question_id": 56817165,
+"link": "https://stackoverflow.com/questions/56817165/how-to-choose-max-of-one-column-per-other-column",
+"title": "How to choose max of one column per other column"
+},
+{
+"tags": [
+"python",
+"pandas",
+"plot",
+"confidence-interval",
+"errorbar"
+],
+"owner": {
+"reputation": 48,
+"user_id": 8895464,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/625d07ac1da8c74a38a3849ba02695a2?s=128&d=identicon&r=PG&f=1",
+"display_name": "cactus",
+"link": "https://stackoverflow.com/users/8895464/cactus"
+},
+"is_answered": true,
+"view_count": 17,
+"accepted_answer_id": 56777591,
+"answer_count": 1,
+"score": 1,
+"last_activity_date": 1561817054,
+"creation_date": 1561564878,
+"last_edit_date": 1561817054,
+"question_id": 56776919,
+"link": "https://stackoverflow.com/questions/56776919/add-95-confidence-intervals-as-error-bars-to-pandas-bar-plot",
+"title": "Add 95% confidence intervals as error bars to pandas bar plot"
+},
+{
+"tags": [
+"boot",
+"alpine",
+"syslinux"
+],
+"owner": {
+"reputation": 3876,
+"user_id": 1870054,
+"user_type": "registered",
+"accept_rate": 72,
+"profile_image": "https://i.stack.imgur.com/QJydN.jpg?s=128&g=1",
+"display_name": "wener",
+"link": "https://stackoverflow.com/users/1870054/wener"
+},
+"is_answered": false,
+"view_count": 31,
+"closed_date": 1561363270,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1561817051,
+"creation_date": 1561225702,
+"last_edit_date": 1561817051,
+"question_id": 56717767,
+"link": "https://stackoverflow.com/questions/56717767/alpine-syslinux-mount-uuid-to-sysroot-fails-but-mounting-manually-works",
+"closed_reason": "off-topic",
+"title": "Alpine syslinux mount UUID to sysroot fails, but mounting manually works"
+},
+{
+"tags": [
+"encoding",
+"utf-8",
+"ascii"
+],
+"owner": {
+"reputation": 601,
+"user_id": 7123519,
+"user_type": "registered",
+"accept_rate": 95,
+"profile_image": "https://i.stack.imgur.com/h25GF.png?s=128&g=1",
+"display_name": "Sebastian Nielsen",
+"link": "https://stackoverflow.com/users/7123519/sebastian-nielsen"
+},
+"is_answered": false,
+"view_count": 8,
+"answer_count": 1,
+"score": 0,
+"last_activity_date": 1561817050,
+"creation_date": 1561814707,
+"question_id": 56817911,
+"link": "https://stackoverflow.com/questions/56817911/are-the-first-128-characters-of-utf-8-and-ascii-identical",
+"title": "Are the first 128 characters of utf-8 and ascii identical?"
+}
+],
+"has_more": true,
+"quota_max": 300,
+"quota_remaining": 289
+}
